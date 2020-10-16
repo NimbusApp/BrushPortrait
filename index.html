@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Brush's Portrait</title>
+     <link rel="stylesheet" href="css/main.css">
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <h2><span class="h1">Brush</span>'s Portrait </h2>
+     <audio id="music" autoplay controls>
+          <source src="public/sounds/1.mp3">
+     </audio>
+     <div class="controls">
+          <label for="spacing">Spacing:</label>
+          <input type="range" id="spacing" name="spacing" min="15" max="200" value="15" data-sizing="px">
+
+          <label for="blur">Blur:</label>
+          <input type="range" id="blur" name="blur" min="0" max="25" value="0" data-sizing="px">
+
+          <label for="base">Base Color</label>
+          <input type="color" id="base" name="base" value="#B72A2A">
+     </div>
+
+     <img src="public/images/brush0.jpg" id="image" alt="land" width="640px" height="480px">
+
+     <footer> Copyright &copy; <label id="year"></label> | Designed by <a
+               href="https://github.com/FabianCristancho">Fabian Cristancho</a></footer>
+
+     <script src="js/script.js"></script>
+</body>
+
+</html>
