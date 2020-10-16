@@ -8,6 +8,8 @@ img {
      padding: var(--spacing);
      background: var(--base);
      filter: blur(var(--blur));
+     width: 80%;
+     height: auto;
 }
 
 audio:hover, audio:focus, audio:active {
